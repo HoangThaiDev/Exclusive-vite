@@ -10,15 +10,17 @@ import CountDownTimer from "./CountdownTimer";
 import Slider from "react-slick";
 
 // Import Icons
-import { FaArrowLeft } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
+import { GoArrowLeft } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
 
 // Custom Slide + Arrow Slider
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
-    <div className={className} onClick={onClick}>
-      <FaArrowRight className="icon-next-arrow" />
+    <div className={className}>
+      <div className="bg-icon-next-arrow">
+        <GoArrowRight className="icon-next-arrow" onClick={onClick} />
+      </div>
     </div>
   );
 }
@@ -26,8 +28,10 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { className, onClick } = props;
   return (
-    <div className={className} onClick={onClick}>
-      <FaArrowLeft className="icon-prev-arrow" />
+    <div className={className}>
+      <div className="bg-icon-prev-arrow">
+        <GoArrowLeft className="icon-prev-arrow" onClick={onClick} />
+      </div>
     </div>
   );
 }

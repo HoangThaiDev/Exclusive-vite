@@ -38,6 +38,9 @@ export default function ItemProduct({ productDetail }) {
             className={`${classes["icon"]} ${classes["icon-heart"]}`}
           />
           <LuEye className={`${classes["icon"]} ${classes["icon-show"]}`} />
+          <button type="button" className={classes["btn-add-cart"]}>
+            Add To Cart
+          </button>
         </div>
 
         <div className={classes["product-sale-card-section"]}>
