@@ -14,6 +14,7 @@ import Home from "./page/Home";
 function App() {
   return (
     <div className="main-product">
+      <h1>Hello</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<RootLayout />}>
