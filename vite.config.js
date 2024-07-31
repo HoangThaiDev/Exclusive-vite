@@ -9,9 +9,6 @@ export default defineConfig(({ mode }) => {
       port: 3000,
     },
     base: mode === "production" ? "/Exclusive-vite/" : "/",
-    server: {
-      port: 3000,
-    },
     build: {
       outDir: "dist",
     },
