@@ -12,10 +12,12 @@ import RootLayout from "./layout/RootLayout";
 import Home from "./page/Home";
 
 function App() {
+  const modeProject = import.meta.env.MODE;
   return (
     <div className="main-product">
-      <h1>Hello</h1>
-      <BrowserRouter>
+      <BrowserRouter
+        basename={modeProject === "development" ? "" : "/Exclusive-vite/"}
+      >
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route index element={<Home />} />
