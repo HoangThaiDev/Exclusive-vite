@@ -1,6 +1,8 @@
 // Import File CSS
 import classes from "./css/productFlashSale.module.css";
 import "./css/ant-design/slickProductFlashSale.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Import Components
 import ItemProduct from "./ItemProduct";
@@ -10,7 +12,6 @@ import Slider from "react-slick";
 // Import Icons
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
-import { useEffect } from "react";
 
 // Custom Slide + Arrow Slider
 function SampleNextArrow(props) {

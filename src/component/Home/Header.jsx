@@ -1,17 +1,16 @@
-// Import Modules
-
 // Import File CSS
 import classes from "./css/header.module.css";
 import "./css/ant-design/sidebarMenuHeader.css";
 import "./css/ant-design/slickHeader.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Import Components
-import { Row, Col, Collapse, Menu } from "antd";
+import { Row, Col, Menu } from "antd";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 // Import Icons
-import { IoIosArrowForward } from "react-icons/io";
 import { LuArrowRight } from "react-icons/lu";
 
 // Import images
