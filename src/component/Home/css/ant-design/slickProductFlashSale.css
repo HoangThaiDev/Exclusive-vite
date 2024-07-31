@@ -1,0 +1,38 @@
+.product-flash-sale-slider {
+    position: relative;
+    margin-left: 170px;
+}
+
+.product-flash-sale-slider .slick-active {
+    margin-right: 15px;
+}
+
+/* CSS: Icon Arrow */
+.product-flash-sale-slider .slick-arrow {
+    position: absolute;
+}
+
+.product-flash-sale-slider .slick-next {
+    right: 220px;
+    top: -80px;
+}
+
+.product-flash-sale-slider .slick-prev {
+    left: 78%;
+    top: -80px;
+}
+
+.product-flash-sale-slider .slick-arrow::before {
+    display: none;
+}
+
+.product-flash-sale-slider .slick-arrow .icon-next-arrow,
+.product-flash-sale-slider .slick-arrow .icon-prev-arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 13px;
+    border-radius: 100%;
+    background-color: rgb(245, 245, 245);
+    color: rgb(27, 26, 26);
+}

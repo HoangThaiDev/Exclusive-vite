@@ -1,0 +1,8 @@
+.product-icon {
+    color: rgba(255, 173, 51, 1);
+    font-size: 16px;
+}
+
+.product-icon .ant-rate-star {
+    margin-inline-end: 5px !important
+}

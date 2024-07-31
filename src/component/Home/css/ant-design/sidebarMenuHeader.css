@@ -1,0 +1,53 @@
+.header__col-sidebar-menu {
+    background-color: #fff;
+    border: none;
+}
+
+.header__col-sidebar-menu .ant-menu-submenu,
+.header__col-sidebar-menu .ant-menu-item {
+    width: 100%;
+    height: 35px;
+}
+
+.header__col-sidebar-menu .ant-menu-item {
+    margin: 5px 0 !important;
+}
+
+.header__col-sidebar-menu .ant-menu-item .ant-menu-title-content {
+    padding-left: 5px;
+}
+
+.header__col-sidebar-menu .ant-menu-submenu-title {
+    padding: 0 !important;
+}
+
+.header__col-sidebar-menu .ant-menu-item-only-child {
+    padding-left: 0 !important;
+}
+
+/* CSS: Icons */
+.header__col-sidebar-menu .ant-menu-submenu-arrow {
+    transform: rotate(-90deg);
+}
+
+/* CSS: Active */
+.header__col-sidebar-menu .ant-menu-submenu-open .ant-menu-inline {
+    padding-left: 20px;
+}
+
+.header__col-sidebar-menu .ant-menu-item-selected {
+    background-color: transparent;
+}
+
+.header__col-sidebar-menu .ant-menu-submenu-open .ant-menu-submenu-arrow::before {
+    transform: rotate(-40deg) translate(3px, 4px) !important;
+}
+
+.header__col-sidebar-menu .ant-menu-submenu-open .ant-menu-submenu-arrow::after {
+    transform: rotate(40deg) translate(1.5px, 0.5px) !important;
+}
+
+/* CSS: Effect */
+.header__col-sidebar-menu .ant-menu-item-active.ant-menu-item-only-child:hover {
+    background-color: #fff !important;
+}

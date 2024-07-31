@@ -1,0 +1,121 @@
+.navigation {
+    width: 100%;
+    border-bottom: 0.5px solid rgb(69, 69, 69)
+}
+
+/* CSS: Navigation Container */
+.navigation__container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* CSS: Navigation Row */
+.navigation__row {
+    height: 90px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+/* CSS: Navigation Col */
+.navigation__col:nth-child(1) {
+    width: 13%;
+}
+
+.navigation__col:nth-child(2) {
+    width: 35%;
+}
+
+.navigation__col:nth-child(3) {
+    width: 30%;
+}
+
+/* CSS: Navigation Col 1 */
+.navigation__col:nth-child(1)>h1 {
+    font: 700 1.4rem/38px "Inter", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    height: 38px;
+}
+
+/* CSS: Navigation Col 2 */
+.navigation__list-link {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 0 48px;
+}
+
+.navigation__item-link {
+    font: 400 1rem/1.2rem "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid transparent;
+    transition: .5s all ease;
+}
+
+/* CSS: Navigation Col 3 */
+.navigation__user {
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-form {
+    width: 100%;
+    height: 38px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-form .form-input {
+    padding: 10px 12px 10px 20px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font: 400 .8rem/1.1rem "Poppins", sans-serif;
+}
+
+.user-form .icon-input-search,
+.navigation__user .icon-input-cart,
+.navigation__user .icon-input-heart {
+    cursor: pointer;
+}
+
+.user-form .icon-input-search {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 15px;
+}
+
+.navigation__user .icon-input-cart,
+.navigation__user .icon-input-heart {
+    width: 26px;
+    height: 26px;
+}
+
+/* CSS: Active */
+.navigation__item-link-active {
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.user-form .form-input::placeholder {
+    color: rgb(96, 96, 96);
+}
+
+
+/* CSS: Effect */
+.navigation__item-link:hover {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.user-form .form-input:focus {
+    outline: none;
+
+}

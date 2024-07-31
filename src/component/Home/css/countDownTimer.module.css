@@ -1,0 +1,45 @@
+.header-datetime-sale {
+    display: flex;
+    gap: 0 30px;
+    text-align: center;
+}
+
+
+.header-datetime-sale-days,
+.header-datetime-sale-hours,
+.header-datetime-sale-minutes,
+.header-datetime-sale-seconds {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2px 0;
+}
+
+.header-datetime-sale-days-title,
+.header-datetime-sale-hours-title,
+.header-datetime-sale-minutes-title,
+.header-datetime-sale-seconds-title {
+    font: 500 .8rem/1.1rem "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.header-datetime-sale-days-number,
+.header-datetime-sale-hours-number,
+.header-datetime-sale-minutes-number,
+.header-datetime-sale-seconds-number {
+    font: 700 2rem/1.9rem "Inter", sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.header-datetime-sale-days::after,
+.header-datetime-sale-hours::after,
+.header-datetime-sale-minutes::after {
+    content: ':';
+    position: absolute;
+    color: rgba(224, 117, 117, 1);
+    border-radius: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    right: -20px;
+    bottom: 20px;
+}

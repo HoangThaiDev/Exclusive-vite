@@ -1,0 +1,52 @@
+.product-flash-sale {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+/* CSS: Product Container */
+.product-flash-sale-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* CSS: Product Header Note */
+.product-flash-sale-header-note {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    height: 40px;
+}
+
+.product-flash-sale-header-note .header-note-bg {
+    width: 20px;
+    height: inherit;
+    background-color: rgba(219, 68, 68, 1);
+    border-radius: 4px;
+}
+
+.product-flash-sale-header-note .header-note-title {
+    font: 600 1rem/1.2rem "Poppins", sans-serif;
+    color: rgba(219, 68, 68, 1);
+}
+
+/* CSS: Product Header DateTime  */
+.product-flash-sale-header-time {
+    margin-top: 15px;
+    display: flex;
+    gap: 0 3rem;
+}
+
+.product-flash-sale-header-time .header-time-title {
+    font: 600 2.3rem/4rem "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: .8px;
+}
+
+.product-flash-sale-list {
+    margin-top: 30px;
+}
+
+/* CSS: Product List Slider  */
+.slider-container {
+    width: 100%;
+}
